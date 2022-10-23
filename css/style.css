@@ -1,0 +1,330 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+
+#navBar {
+    height: 69px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+#logoNavBar {
+    width: 131px;
+    height: 60px;
+    display: flex;
+    margin: 7px 410px 2px 127px
+}
+
+#navBarNameLogo {
+    color: #7555F7;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 7px;
+}
+
+#search {
+    display: flex;
+    width: 260px;
+    height: 32px;
+    color: #828282;
+    background-color: #F2F2F2;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+}
+
+#svgLupa {
+    margin: 10px 12px;
+}
+
+#inputNavBar {
+    width: 201px;
+    height: 13px;
+    margin: 9px 23px 10px 0px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    border: none;
+    background-color: #F2F2F2;
+}
+
+#botãoEntrar {
+    margin: 29px 131px 26px 201px;
+    color: #22AAB3;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+#header {
+    width: 100%;
+    height: 418px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#backgroundHeader {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+#Abajour {
+    margin-bottom: 3px;
+}
+
+#chamadaCadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 131px 147px 79px 59px ;
+}
+
+#sloganLogo {
+    display: flex;
+    align-items: center;
+}
+
+#slogan {
+    text-align: right;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 71px;
+    margin-right: 30px;
+}
+
+#EstudeOnline {
+    color: #193651;
+}
+
+#paraOCACD {
+    color: #4F4F4F;
+}
+
+#cadastroHeader {
+    width: 235px;
+    height: 46px;
+    color: #FFFFFF;
+    background-color: #7555F7;
+    border: none;
+    border-radius: 2px;
+    margin-top: 38px;
+    margin-right: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+
+#containerTopico1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#topico1 {
+    height: 334px;
+    margin: 81px 138px 21px 127px;
+
+}
+
+.tituloTopico {
+    color: #000000;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 13px;
+}
+
+
+#filaDeCards {
+    width: 1068px;
+    height: 211px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 340px;
+    height: 211px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+
+.divImagemTopico1 {
+    width: 340px;
+    height: 140px;
+}
+
+.imgTopico1 {
+    width: 340px;
+    height: 140px;
+}
+
+.infoCard {
+    height: 68px;
+    display: flex;
+    flex-direction: column;
+}
+
+.preçoMateria {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+
+    color: #333333;
+
+}
+
+.tituloMateria {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #333333;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width:230px; /* some width */
+}
+
+
+.tituloCardTopico1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 13px 4px 13px;
+    align-items: center;
+}
+
+.divProfessorConhecer {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 5px 8px 12px;
+    align-items: center;
+}
+
+.imagemProfessor {
+    width: 22px;
+    height: 22px;
+    border-radius: 100px;
+    margin-right: 5px;
+}
+
+.professor {
+    color: #333333;
+    font-size: 14px;
+    line-height: 16.59px;
+}
+
+.divBotãoConhecer {
+    margin-left: 40px;
+}
+
+.botãoConhecer {
+    color: #22AAB3;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+}
+
+#buttonTopico1 {
+    width: 1068px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+#botãoTodasAulas {
+    background-color: white;
+    color: #72C9CF;
+    width: 235px;
+    height: 46px;
+    border: 2px solid #72C9CF;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#containerTopico2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#topico2 {
+    margin: 21px 125px 103px 125px;
+}
+
+.gridContainer {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gridItem {
+
+}
+
+.cardGrid {
+    width: 340px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 19px;
+}
+
+
+
+footer {
+    display: flex;
+    height: 405px;
+    background-color: #7555F7;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#funcionalidadesFooter {
+
+    height: 305px;
+}
+
+#botõesFooter {
+    display: flex;
+}
+
+#maisInformaçõesFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
