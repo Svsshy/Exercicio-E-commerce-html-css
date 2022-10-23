@@ -1,0 +1,1 @@
+Exercicio de HTML e CSS. Criar um site de e-commerce com o layout dado pelo professor.
