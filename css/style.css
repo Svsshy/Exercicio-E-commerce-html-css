@@ -282,13 +282,11 @@ body {
 
 .gridContainer {
     display: grid;
-    gap: 5px;
+    gap: 5px 25px;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.gridItem {
 
-}
 
 .cardGrid {
     width: 340px;
@@ -297,9 +295,35 @@ body {
     justify-content: center;
     align-items: flex-end;
     margin-bottom: 19px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
 }
 
 
+.svgGridDiv {
+    width: 340px;
+    height: 180px;
+    position: absolute;
+    z-index: -1;
+}
+
+.gridButtonDiv {
+    margin-bottom: 19px;
+    
+}
+
+.gridButton {
+    width: 200px;
+    height: 46px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    color: #FFFFFF;
+    background-color: #22AAB3;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.23);
+    border-radius: 5px;
+}
 
 footer {
     display: flex;
