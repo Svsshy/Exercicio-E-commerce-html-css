@@ -7,6 +7,13 @@ body {
 }
 
 
+.containerTopico{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #navBar {
     height: 69px;
     background-color: #FFFFFF;
@@ -139,10 +146,10 @@ body {
 }
 
 #topico1 {
-    height: 334px;
     margin: 81px 138px 21px 127px;
 
 }
+
 
 .tituloTopico {
     color: #000000;
@@ -207,7 +214,7 @@ body {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    width:230px; /* some width */
+    width:230px;
 }
 
 
@@ -312,7 +319,7 @@ body {
 }
 
 .gridButton {
-    width: 200px;
+    min-width: 200px;
     height: 46px;
     font-weight: 500;
     font-size: 20px;
@@ -325,6 +332,89 @@ body {
     border-radius: 5px;
 }
 
+
+#topico3 {
+    margin: 0px 134px 118px 128px;
+}
+
+#opçõesTopico3 {
+    width: 427px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botãoTopico3 {
+    min-width: 90px;
+    height: 56px;
+    color: #7555F7;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    border: #7555F7 solid 2px;
+    border-radius: 5px;
+}
+
+.botãoTopico3:focus {
+    color: #FFFFFF;
+    background-color: #7555F7;
+}
+
+#quadroDeMinisimulados {
+    width: 1071px;
+    height: 249px;
+}
+
+.minisimulados {
+    height: 86px;
+    width: 1071px;
+    display: flex;
+    align-items: center;
+}
+
+.divInformaçõesDosMinisimulados {
+    width: 611px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 12px;
+}
+
+.tituloMinisimulado {
+    width: 160px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.informaçõesDosMinisimulados {
+    display: flex;
+    align-items: center;
+}
+
+.espaçoEntreItemMinisimulado {
+    margin-left: 5px;
+}
+
+.divFlechaSvg {
+    width: 385px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.linha {
+    width: 1023.23px;
+    height: 0px;
+    border: 1px solid #E0E0E0;
+    margin-left: 14px;
+    margin-right: 33px;
+}
+
 footer {
     display: flex;
     height: 405px;
@@ -333,6 +423,7 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
 
 
 #funcionalidadesFooter {
@@ -344,11 +435,57 @@ footer {
     display: flex;
 }
 
-#maisInformaçõesFooter {
+#divFooterLogoEBotãoCadastro {
+    width: 320px;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    align-items: center;
+    
 }
 
+#divBotãoCadastroFooter {
+    margin-left: 48px;
+    width: 192px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
 
+#botãoCadastroFooter {
+    width: 192px;
+    height: 55px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    background-color: #7555F7;
+    box-sizing: border-box;
+    border: 2px solid #FFF7F7;
+    border-radius: 5px;
+}
+
+#facebook {
+    width: 751px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#maisInformaçõesFooter {
+    color: #FFFFFF;
+    width: 300px;
+    height: 133px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 52px;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+
+#direitosReservados {
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
